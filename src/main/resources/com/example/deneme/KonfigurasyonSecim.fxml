@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="hBOXHatlar" prefHeight="282.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.KonfigurasyonSecimController">
+   <children>
+      <VBox fx:id="hat1VBox" alignment="TOP_CENTER" prefHeight="269.0" prefWidth="111.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="88.0">
+               <children>
+                  <Label fx:id="hatOneLabel" alignment="CENTER" prefHeight="18.0" prefWidth="46.0" text="HAT 1" />
+                  <CheckBox fx:id="hatOneCheckBox" alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onhatOneCheckBoxTick">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </CheckBox>
+               </children>
+            </HBox>
+            <Button fx:id="hat1AmtbID0" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID0ButtonClicked" text="AMTB ID 0">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID1" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID1ButtonClicked" text="AMTB ID 1">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID2ButtonClicked" text="AMTB ID 2">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID3ButtonClicked" text="AMTB ID 3">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID4ButtonClicked" text="AMTB ID 4">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID5" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID5ButtonClicked" text="AMTB ID 5">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID6" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID6ButtonClicked" text="AMTB ID 6">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat1AmtbID7" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat1AMTBID7ButtonClicked" text="AMTB ID 7">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="hat2VBOX" alignment="TOP_CENTER" prefHeight="269.0" prefWidth="111.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="88.0">
+               <children>
+                  <Label fx:id="hatOneLabel2" alignment="CENTER" prefHeight="18.0" prefWidth="46.0" text="HAT 2" />
+                  <CheckBox fx:id="hatTwoCheckBox" alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onhatTwoCheckBoxTick">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </CheckBox>
+               </children>
+            </HBox>
+            <Button fx:id="hat2AmtbID0" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID0ButtonClicked" text="AMTB ID 0">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID1" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID1ButtonClicked" text="AMTB ID 1">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID2ButtonClicked" text="AMTB ID 2">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID3ButtonClicked" text="AMTB ID 3">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID4ButtonClicked" text="AMTB ID 4">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID5" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID5ButtonClicked" text="AMTB ID 5">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID6" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID6ButtonClicked" text="AMTB ID 6">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat2AmtbID7" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat2AMTBID7ButtonClicked" text="AMTB ID 7">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="hat3VBOX" alignment="TOP_CENTER" prefHeight="269.0" prefWidth="111.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="88.0">
+               <children>
+                  <Label fx:id="hatOneLabel3" alignment="CENTER" prefHeight="18.0" prefWidth="46.0" text="HAT 3" />
+                  <CheckBox fx:id="hatThreeCheckBox" alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onhatThreeCheckBoxTick">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </CheckBox>
+               </children>
+            </HBox>
+            <Button fx:id="hat3AmtbID0" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID0ButtonClicked" text="AMTB ID 0">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID1" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID1ButtonClicked" text="AMTB ID 1">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID2ButtonClicked" text="AMTB ID 2">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID3ButtonClicked" text="AMTB ID 3">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID4ButtonClicked" text="AMTB ID 4">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID5" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID5ButtonClicked" text="AMTB ID 5">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID6" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID6ButtonClicked" text="AMTB ID 6">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat3AmtbID7" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat3AMTBID7ButtonClicked" text="AMTB ID 7">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="hat4VBOX" alignment="TOP_CENTER" prefHeight="269.0" prefWidth="111.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="88.0">
+               <children>
+                  <Label fx:id="hatOneLabel4" alignment="CENTER" prefHeight="18.0" prefWidth="46.0" text="HAT 4" />
+                  <CheckBox fx:id="hatFourCheckBox" alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onhatFourCheckBoxTick">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </CheckBox>
+               </children>
+            </HBox>
+            <Button fx:id="hat4AmtbID0" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID0ButtonClicked" text="AMTB ID 0">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID1" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID1ButtonClicked" text="AMTB ID 1">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID2ButtonClicked" text="AMTB ID 2">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID3ButtonClicked" text="AMTB ID 3">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID4ButtonClicked" text="AMTB ID 4">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID5" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID5ButtonClicked" text="AMTB ID 5">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID6" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID6ButtonClicked" text="AMTB ID 6">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="hat4AmtbID7" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onhat4AMTBID7ButtonClicked" text="AMTB ID 7">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>

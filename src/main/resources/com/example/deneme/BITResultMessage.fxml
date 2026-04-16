@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="782.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.BITResultController">
+   <children>
+      <ComboBox fx:id="eepromCB" layoutX="173.0" layoutY="37.0" prefWidth="175.0" />
+      <ComboBox fx:id="mybcommCB" layoutX="173.0" layoutY="81.0" prefWidth="175.0" />
+      <ComboBox fx:id="scanvoltageCB" layoutX="173.0" layoutY="128.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="smartcomm1CB" layoutX="173.0" layoutY="172.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="smartcomm2CB" layoutX="173.0" layoutY="214.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="sqbcurrent1CB" layoutX="173.0" layoutY="255.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="sqbcurrent2CB" layoutX="173.0" layoutY="302.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="sqbvoltage1CB" layoutX="173.0" layoutY="347.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="sqbvoltage2CB" layoutX="173.0" layoutY="401.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="sqbvoltagearmCB" layoutX="174.0" layoutY="515.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="loadch1CB" layoutX="174.0" layoutY="576.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="loadch2CB" layoutX="174.0" layoutY="634.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="voltageleakch1CB" layoutX="534.0" layoutY="37.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="voltageleakch2CB" layoutX="534.0" layoutY="81.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="currentabovech1CB" layoutX="534.0" layoutY="128.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="currentabovech2CB" layoutX="534.0" layoutY="172.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="currentbelowch1CB" layoutX="534.0" layoutY="214.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="currentbelowch2CB" layoutX="534.0" layoutY="255.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="dischargech1CB" layoutX="534.0" layoutY="302.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="dischargech2CB" layoutX="534.0" layoutY="347.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="currentleakch1CB" layoutX="534.0" layoutY="401.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="currentleakch2CB" layoutX="534.0" layoutY="455.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="eepromwriteCB" layoutX="534.0" layoutY="516.0" prefHeight="26.0" prefWidth="175.0" />
+      <ComboBox fx:id="magazinecoverCB" layoutX="534.0" layoutY="574.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="85.0" layoutY="41.0" text="EEPROM" />
+      <Label layoutX="83.0" layoutY="85.0" text="MYBCOMM" />
+      <Label layoutX="82.0" layoutY="132.0" text="SCANVOLTAGE" />
+      <Label layoutX="83.0" layoutY="176.0" text="SMARTCOMM1" />
+      <Label layoutX="83.0" layoutY="218.0" text="SMARTCOMM2" />
+      <Label layoutX="86.0" layoutY="259.0" text="SQBCURRENT1" />
+      <Label layoutX="85.0" layoutY="306.0" text="SQBCURRENT2" />
+      <Label layoutX="87.0" layoutY="351.0" text="SQBVOLTAGE1" />
+      <Label layoutX="86.0" layoutY="405.0" text="SQBVOLTAGE2" />
+      <Label layoutX="69.0" layoutY="519.0" text="SQBVOLTAGEARM" />
+      <Label layoutX="91.0" layoutY="580.0" text="LOADCH1" />
+      <Label layoutX="91.0" layoutY="638.0" text="LOADCH2" />
+      <Label layoutX="428.0" layoutY="41.0" text="VOLTAGELEAKCH1" />
+      <Label layoutX="429.0" layoutY="85.0" text="VOLTAGELEAKCH2" />
+      <Label layoutX="419.0" layoutY="132.0" text="CURRENTABOVECH1" />
+      <Label layoutX="416.0" layoutY="176.0" text="CURRENTABOVECH2" />
+      <Label layoutX="418.0" layoutY="218.0" text="CURRENTBELOWCH1" />
+      <Label layoutX="414.0" layoutY="259.0" text="CURRENTBELOWCH2" />
+      <Label layoutX="433.0" layoutY="306.0" text="DISCHARGECH1" />
+      <Label layoutX="435.0" layoutY="351.0" text="DISCHARGECH2" />
+      <Label layoutX="426.0" layoutY="405.0" text="CURRENTLEAKCH1" />
+      <Label layoutX="428.0" layoutY="459.0" text="CURRENTLEAKCH2" />
+      <Label layoutX="441.0" layoutY="520.0" text="EEPROMWRITE" />
+      <Label layoutX="431.0" layoutY="578.0" text="MAGAZINECOVER" />
+      <ComboBox fx:id="sqbvoltageinCB" layoutX="173.0" layoutY="455.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="83.0" layoutY="459.0" text="SQBVOLTAGEIN" />
+      <ComboBox fx:id="logBackupCB" layoutX="534.0" layoutY="626.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="456.0" layoutY="630.0" text="LOG BACKUP" />
+      <ComboBox fx:id="ramCB" layoutX="175.0" layoutY="687.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="108.0" layoutY="692.0" text="RAM" />
+   </children>
+</AnchorPane>
