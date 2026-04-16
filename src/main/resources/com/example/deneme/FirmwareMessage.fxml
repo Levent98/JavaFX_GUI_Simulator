@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="224.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.FirmwareMessageController">
+   <children>
+      <ComboBox fx:id="firmwareVersionCB" layoutX="191.0" layoutY="79.0" prefWidth="150.0" />
+      <Label layoutX="73.0" layoutY="83.0" text="Firmware  Versiyonu" />
+   </children>
+</AnchorPane>

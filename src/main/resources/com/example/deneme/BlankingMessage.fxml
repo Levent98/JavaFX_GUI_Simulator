@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.BlankingMessageController">
+   <children>
+      <Label layoutX="141.0" layoutY="104.0" text="Category" />
+      <ComboBox fx:id="categoryCB" layoutX="202.0" layoutY="100.0" prefHeight="26.0" prefWidth="277.0" />
+      <ComboBox fx:id="directionCB" layoutX="202.0" layoutY="156.0" prefHeight="26.0" prefWidth="278.0" />
+      <Label layoutX="141.0" layoutY="161.0" text="Direction" />
+      <Label layoutX="141.0" layoutY="229.0" text="Operation" />
+      <ComboBox fx:id="operationCB" layoutX="202.0" layoutY="225.0" prefHeight="26.0" prefWidth="278.0" />
+   </children>
+</AnchorPane>

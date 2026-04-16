@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="621.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.InventoryCellBasedDefinitionController">
+   <children>
+      <Label layoutX="30.0" layoutY="27.0" text="Kategori Bilgisi" />
+      <ComboBox fx:id="categoryCB" layoutX="154.0" layoutY="23.0" onAction="#AmtbInventoryCategoryCBAction" prefWidth="150.0" />
+      <Label layoutX="20.0" layoutY="79.0" text="Mühimmat Parca Sayısı" />
+      <Label layoutX="31.0" layoutY="143.0" text="Doluluk Durumu" />
+      <Label layoutX="42.0" layoutY="195.0" text="isMisfired" />
+      <Label layoutX="42.0" layoutY="259.0" text="isMultiple" />
+      <Label layoutX="42.0" layoutY="316.0" text="isSmart" />
+      <Label layoutX="42.0" layoutY="378.0" text="Tip Bilgisi" />
+      <Label layoutX="405.0" layoutY="27.0" text="Tek Çift Bilgisi" />
+      <Label layoutX="405.0" layoutY="71.0" text="Kalan Omur Kritiklik Durumu" />
+      <Label layoutX="405.0" layoutY="126.0" text="Uyumsuzluk Durumu" />
+      <Label layoutX="405.0" layoutY="172.0" text="Reserved" />
+      <Label layoutX="405.0" layoutY="229.0" text="ASH Bildirilen Tip" />
+      <ComboBox fx:id="muhimmatParcaCB" layoutX="154.0" layoutY="76.0" prefWidth="150.0" />
+      <ComboBox fx:id="dolulukDurumuCB" layoutX="154.0" layoutY="139.0" prefWidth="150.0" />
+      <ComboBox fx:id="isMisfiredCB" layoutX="154.0" layoutY="191.0" prefWidth="150.0" />
+      <ComboBox fx:id="isMultipleCB" layoutX="154.0" layoutY="264.0" prefHeight="26.0" prefWidth="203.0" />
+      <ComboBox fx:id="isSmartCB" layoutX="154.0" layoutY="321.0" prefHeight="26.0" prefWidth="203.0" />
+      <ComboBox fx:id="tekCiftDurumCB" layoutX="573.0" layoutY="23.0" prefWidth="150.0" />
+      <ComboBox fx:id="kalanOmurKritiklikDurumuCB" layoutX="573.0" layoutY="67.0" prefHeight="26.0" prefWidth="203.0" />
+      <ComboBox fx:id="uyumsuzlukCB" layoutX="573.0" layoutY="122.0" prefWidth="150.0" />
+      <ComboBox fx:id="reservedCB" layoutX="573.0" layoutY="171.0" prefWidth="150.0" />
+      <TextField layoutX="574.0" layoutY="228.0" />
+      <Button fx:id="kaydetbutton" layoutX="647.0" layoutY="550.0" mnemonicParsing="false" onAction="#onSavebuttonInventoryClicked" text="Kaydet " />
+      <ComboBox fx:id="tipBilgisiCB" layoutX="154.0" layoutY="374.0" prefHeight="26.0" prefWidth="203.0" />
+   </children>
+</AnchorPane>

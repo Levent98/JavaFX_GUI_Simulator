@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.AMTB_Sim_Controller">
+   <children>
+      <ImageView fitHeight="41.0" fitWidth="83.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Users/irem.aydogan/Desktop/KKY-YAZILIM-TEST/MMT/KKYSumerSimJavaFX/KKYSumerSimulation/src/main/resources/com/example/kkysumersimulation/karel.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="butonKonf" layoutX="108.0" layoutY="70.0" mnemonicParsing="false" onAction="#onButtonKonfClick" text="Konfigürasyon Tanımı" />
+      <Button fx:id="envanterBilgisiGoruntuleBtn" layoutX="108.0" layoutY="108.0" mnemonicParsing="false" onAction="#clickEnvanterBilgisiGoruntuleBtn" prefHeight="26.0" prefWidth="264.0" text="AMTB Envanter Bilgisi Görüntüle" />
+      <Button fx:id="hucreButton" layoutX="255.0" layoutY="69.0" mnemonicParsing="false" onAction="#hucreControlButtonClicked" prefHeight="26.0" prefWidth="92.0" text="Hucre kontrol" />
+      <TextArea fx:id="logTextArea" layoutX="94.0" layoutY="367.0" prefHeight="281.0" prefWidth="792.0" />
+      <Label layoutX="95.0" layoutY="343.0" text="LOG MESAJLARI">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="hat1PortComboBox" layoutX="113.0" layoutY="24.0" prefHeight="26.0" prefWidth="83.0" />
+      <Label layoutX="72.0" layoutY="28.0" text="HAT1" />
+      <Label layoutX="216.0" layoutY="27.0" text="HAT2" />
+      <ComboBox fx:id="hat2PortComboBox" layoutX="255.0" layoutY="24.0" prefHeight="26.0" prefWidth="92.0" />
+      <ComboBox fx:id="hat3PortComboBox" layoutX="401.0" layoutY="24.0" prefHeight="26.0" prefWidth="99.0" />
+      <Label layoutX="357.0" layoutY="28.0" text="HAT3" />
+      <ComboBox fx:id="hat4PortComboBox" layoutX="545.0" layoutY="22.0" prefHeight="26.0" prefWidth="92.0" />
+      <Label layoutX="509.0" layoutY="28.0" text="HAT4" />
+      <Button fx:id="baglanbutton" layoutX="652.0" layoutY="24.0" mnemonicParsing="false" onAction="#InitializeSerialCom" text="BAĞLAN" />
+      <Button fx:id="kapatbutton" layoutX="732.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleDisconnectButton" text="KAPAT" />
+      <Button layoutX="93.0" layoutY="302.0" mnemonicParsing="false" onAction="#LogTemizleButton" text="MESAJLARI TEMİZLE" />
+      <ButtonBar layoutX="458.0" layoutY="153.0" prefHeight="40.0" prefWidth="200.0" />
+      <Button layoutX="804.0" layoutY="24.0" mnemonicParsing="false" onAction="#fetchallports" prefHeight="26.0" prefWidth="70.0" text="YENİLE" />
+      <Button layoutX="106.0" layoutY="193.0" mnemonicParsing="false" onAction="#discreteLinebutton" prefHeight="26.0" prefWidth="162.0" text="AYRIK HAT SİNYALLERİ" />
+   </children>
+</AnchorPane>

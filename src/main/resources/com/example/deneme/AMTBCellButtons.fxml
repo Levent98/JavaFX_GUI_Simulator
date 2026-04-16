@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="639.0" prefWidth="841.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.AMTBCellButtonsController">
+   <children>
+      <Button fx:id="hucre1button" layoutX="147.0" layoutY="92.0" mnemonicParsing="false" onAction="#onhucre1ButtonClicked" text="Hücre 1" />
+      <Button fx:id="hucre2button" layoutX="147.0" layoutY="155.0" mnemonicParsing="false" onAction="#onhucre2ButtonClicked" text="Hücre 2" />
+      <Button fx:id="hucre3button" layoutX="147.0" layoutY="216.0" mnemonicParsing="false" onAction="#onhucre3ButtonClicked" text="Hücre 3" />
+      <Button fx:id="hucre4button" layoutX="147.0" layoutY="275.0" mnemonicParsing="false" onAction="#onhucre4ButtonClicked" text="Hücre 4" />
+      <Button fx:id="hucre5button" layoutX="147.0" layoutY="335.0" mnemonicParsing="false" onAction="#onhucre5ButtonClicked" text="Hücre 5" />
+      <Button fx:id="hucre6button" layoutX="147.0" layoutY="399.0" mnemonicParsing="false" onAction="#onhucre6ButtonClicked" text="Hücre 6" />
+      <Button fx:id="hucre7button" layoutX="244.0" layoutY="92.0" mnemonicParsing="false" onAction="#onhucre7ButtonClicked" text="Hücre 7" />
+      <Button fx:id="hucre8button" layoutX="244.0" layoutY="155.0" mnemonicParsing="false" onAction="#onhucre8ButtonClicked" text="Hücre 8" />
+      <Button fx:id="hucre9button" layoutX="244.0" layoutY="216.0" mnemonicParsing="false" onAction="#onhucre9ButtonClicked" text="Hücre 9 " />
+      <Button fx:id="hucre10button" layoutX="244.0" layoutY="275.0" mnemonicParsing="false" onAction="#onhucre10ButtonClicked" text="Hücre 10" />
+      <Button fx:id="hucre11button" layoutX="244.0" layoutY="335.0" mnemonicParsing="false" onAction="#onhucre11ButtonClicked" text="Hücre 11" />
+      <Button fx:id="hucre13button" layoutX="349.0" layoutY="92.0" mnemonicParsing="false" onAction="#onhucre13ButtonClicked" text="Hücre 13" />
+      <Button fx:id="hucre14button" layoutX="349.0" layoutY="156.0" mnemonicParsing="false" onAction="#onhucre14ButtonClicked" text="Hücre 14" />
+      <Button fx:id="hucre15button" layoutX="349.0" layoutY="217.0" mnemonicParsing="false" onAction="#onhucre15ButtonClicked" text="Hücre 15" />
+      <Button fx:id="hucre16button" layoutX="349.0" layoutY="275.0" mnemonicParsing="false" onAction="#onhucre16ButtonClicked" text="Hücre 16" />
+      <Button fx:id="hucre17button" layoutX="349.0" layoutY="335.0" mnemonicParsing="false" onAction="#onhucre17ButtonClicked" text="Hücre 17" />
+      <Button fx:id="hucre18button" layoutX="349.0" layoutY="398.0" mnemonicParsing="false" onAction="#onhucre18ButtonClicked" prefHeight="26.0" prefWidth="64.0" text="Hücre 18" />
+      <Button fx:id="hucre19button" layoutX="453.0" layoutY="92.0" mnemonicParsing="false" onAction="#onhucre19ButtonClicked" text="Hücre 19" />
+      <Button fx:id="hucre20button" layoutX="453.0" layoutY="156.0" mnemonicParsing="false" onAction="#onhucre20ButtonClicked" text="Hücre 20" />
+      <Button fx:id="hucre21button" layoutX="453.0" layoutY="216.0" mnemonicParsing="false" onAction="#onhucre21ButtonClicked" text="Hücre 21" />
+      <Button fx:id="hucre22button" layoutX="453.0" layoutY="275.0" mnemonicParsing="false" onAction="#onhucre22ButtonClicked" text="Hücre 22" />
+      <Button fx:id="hucre23button" layoutX="453.0" layoutY="335.0" mnemonicParsing="false" onAction="#onhucre23ButtonClicked" text="Hücre 23" />
+      <Button fx:id="hucre24button" layoutX="453.0" layoutY="399.0" mnemonicParsing="false" onAction="#onhucre24ButtonClicked" text="Hücre 24" />
+      <Button fx:id="hucre25button" layoutX="558.0" layoutY="92.0" mnemonicParsing="false" onAction="#onhucre25ButtonClicked" text="Hücre 25" />
+      <Button fx:id="hucre26button" layoutX="558.0" layoutY="156.0" mnemonicParsing="false" onAction="#onhucre26ButtonClicked" text="Hücre 26" />
+      <Button fx:id="hucre27button" layoutX="558.0" layoutY="217.0" mnemonicParsing="false" onAction="#onhucre27ButtonClicked" text="Hücre 27" />
+      <Button fx:id="hucre28button" layoutX="558.0" layoutY="275.0" mnemonicParsing="false" onAction="#onhucre28ButtonClicked" text="Hücre 28" />
+      <Button fx:id="hucre29button" layoutX="558.0" layoutY="335.0" mnemonicParsing="false" onAction="#onhucre29ButtonClicked" text="Hücre 29" />
+      <Button fx:id="hucre30button" layoutX="558.0" layoutY="399.0" mnemonicParsing="false" onAction="#onhucre30ButtonClicked" text="Hücre 30" />
+      <Button fx:id="hucre12button" layoutX="244.0" layoutY="399.0" mnemonicParsing="false" onAction="#onhucre12ButtonClicked" text="Hücre 12" />
+   </children>
+</AnchorPane>

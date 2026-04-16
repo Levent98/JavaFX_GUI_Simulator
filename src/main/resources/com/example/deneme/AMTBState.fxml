@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="702.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.AMTBStateController">
+   <children>
+      <Label layoutX="79.0" layoutY="94.0" text="AMTB Mod Secim" />
+      <Label layoutX="78.0" layoutY="132.0" text="Jettison State" />
+      <ComboBox fx:id="AmtbModSecimCB" layoutX="180.0" layoutY="90.0" onAction="#AmtbModSecimCBCBonAction" prefWidth="150.0" />
+      <ComboBox fx:id="JettisonStateCB" layoutX="180.0" layoutY="128.0" onAction="#AmtbJettisonStateCBAction" prefWidth="150.0" />
+      <Label layoutX="77.0" layoutY="170.0" text="Armed" />
+      <ComboBox fx:id="ArmedCB" layoutX="179.0" layoutY="166.0" onAction="#AmtbArmedCBAction" prefWidth="150.0" />
+      <Label layoutX="78.0" layoutY="210.0" text="Is armed" />
+      <Label layoutX="78.0" layoutY="248.0" text="WOW" />
+      <ComboBox fx:id="IsarmedCB" layoutX="179.0" layoutY="206.0" onAction="#AmtbIsArmedCBAction" prefWidth="150.0" />
+      <ComboBox fx:id="WOWCB" layoutX="179.0" layoutY="244.0" onAction="#AmtbWOWCBAction" prefWidth="150.0" />
+      <Label layoutX="76.0" layoutY="286.0" text="Discrete Test" />
+      <ComboBox fx:id="DiscreteTestCB" layoutX="178.0" layoutY="282.0" onAction="#AmtbDiscreteTestCBAction" prefWidth="150.0" />
+      <Label layoutX="79.0" layoutY="327.0" text="MDF" />
+      <Label layoutX="78.0" layoutY="365.0" text="MDFLoading" />
+      <ComboBox fx:id="MDFCB" layoutX="180.0" layoutY="323.0" onAction="#AmtbMDFCBAction" prefWidth="150.0" />
+      <ComboBox fx:id="MDFLoadingCB" layoutX="180.0" layoutY="361.0" onAction="#AmtbMDFLoadingCBAction" prefWidth="150.0" />
+      <Label layoutX="77.0" layoutY="403.0" text="MagCover" />
+      <ComboBox fx:id="MagCoverCB" layoutX="179.0" layoutY="399.0" onAction="#AmtbMagCoverCBAction" prefWidth="150.0" />
+      <Label layoutX="78.0" layoutY="443.0" text="IBIT" />
+      <Label layoutX="78.0" layoutY="481.0" text="FAIL" />
+      <ComboBox fx:id="IBITCB" layoutX="179.0" layoutY="439.0" onAction="#AmtbIBITCBAction" prefWidth="150.0" />
+      <ComboBox fx:id="FAILCB" layoutX="179.0" layoutY="477.0" onAction="#AmtbFAILCBAction" prefWidth="150.0" />
+      <Label layoutX="76.0" layoutY="519.0" text="New FAIL" />
+      <ComboBox fx:id="NewFAILCB" layoutX="178.0" layoutY="515.0" onAction="#AmtbNewFAILCBAction" prefWidth="150.0" />
+      <Label layoutX="79.0" layoutY="554.0" text="SQBPower" />
+      <Label layoutX="454.0" layoutY="56.0" text="RTC" />
+      <ComboBox fx:id="SQBPowerCB" layoutX="180.0" layoutY="550.0" onAction="#AmtbSQBPowerCBAction" prefWidth="150.0" />
+      <ComboBox fx:id="RTCCB" layoutX="556.0" layoutY="52.0" onAction="#AmtbRTCCBAction" prefWidth="150.0" />
+      <Label layoutX="453.0" layoutY="94.0" text="STC Connected" />
+      <ComboBox fx:id="STCConnectedCB" layoutX="555.0" layoutY="90.0" onAction="#AmtbSTCConnectedCBAction" prefWidth="150.0" />
+      <Label layoutX="454.0" layoutY="134.0" text="Blank IR" />
+      <Label layoutX="454.0" layoutY="172.0" text="Blank RF" />
+      <ComboBox fx:id="BlankIRCB" layoutX="555.0" layoutY="130.0" onAction="#AmtbBlankIRCBAction" prefWidth="150.0" />
+      <ComboBox fx:id="BlankRFCB" layoutX="555.0" layoutY="168.0" onAction="#AmtbBlankRFCBAction" prefWidth="150.0" />
+      <Label layoutX="455.0" layoutY="215.0" text="IsAMTB6x5" />
+      <Label layoutX="454.0" layoutY="253.0" text="Misfire" />
+      <ComboBox fx:id="IsAMTB6x5CB" layoutX="556.0" layoutY="211.0" onAction="#AmtbisAMTB6x5CBAction" prefWidth="150.0" />
+      <ComboBox fx:id="MisfireCB" layoutX="556.0" layoutY="249.0" onAction="#AmtbMisfireCBAction" prefWidth="150.0" />
+      <Label layoutX="453.0" layoutY="291.0" text="New Misfire" />
+      <ComboBox fx:id="NewMisfireCB" layoutX="555.0" layoutY="287.0" onAction="#AmtbNewMisfireCBAction" prefWidth="150.0" />
+      <Label layoutX="454.0" layoutY="331.0" text="IsFiringActive" />
+      <ComboBox fx:id="IsFiringActiveCB" layoutX="555.0" layoutY="327.0" onAction="#AmtbIsFiringActiveCBAction" prefWidth="150.0" />
+      <Label fx:id="amtbdurumbilgi" layoutX="62.0" layoutY="55.0" text="AMTB Durum Bilgisi" />
+      <ComboBox fx:id="AmtbDurumBilgiCB" layoutX="180.0" layoutY="51.0" onAction="#AmtbDurumBilgiCBAction" prefWidth="150.0" />
+      <Button fx:id="setDefaultButton" layoutX="763.0" layoutY="594.0" mnemonicParsing="false" onAction="#amtbStateSetDefaultButtonClicked" prefHeight="26.0" prefWidth="158.0" text="Set Default" />
+      <Button fx:id="hucreEnvanterTanimiBtn" layoutX="452.0" layoutY="409.0" mnemonicParsing="false" onAction="#clickhucreEnvanterTanimiBtn" prefHeight="26.0" prefWidth="158.0" text="Hücre için Envanter Tanımı" />
+      <Button fx:id="BITMessageClickButton" layoutX="451.0" layoutY="370.0" mnemonicParsing="false" onAction="#BITMessageClickButton" prefHeight="26.0" prefWidth="158.0" text="BIT Mesaj Düzenleme" />
+      <Button fx:id="firmwareTanımlamaBttn" layoutX="451.0" layoutY="448.0" mnemonicParsing="false" onAction="#clickFirmwareTanimlamaBtn" prefHeight="26.0" prefWidth="158.0" text="Firmware Tanımlama" />
+      <Button fx:id="blankingMessageBttn" layoutX="451.0" layoutY="486.0" mnemonicParsing="false" onAction="#clickBlankingMessageBtn" prefHeight="26.0" prefWidth="158.0" text="Blanking Mesajları " />
+      <Button fx:id="zeroizeResultBttn" layoutX="451.0" layoutY="528.0" mnemonicParsing="false" onAction="#clickZeroizeResultBtn" prefHeight="26.0" prefWidth="158.0" text="Zeroize Result Tanımlama" />
+      <Button fx:id="recordMessageBtn" layoutX="631.0" layoutY="370.0" mnemonicParsing="false" onAction="#clickRecordMessageBtn" prefHeight="26.0" prefWidth="150.0" text="Record Message" />
+      <Button fx:id="Kaydetbutonu" layoutX="650.0" layoutY="594.0" mnemonicParsing="false" onAction="#onSaveButtonClicked" prefHeight="26.0" prefWidth="63.0" text="Kaydet" />
+   </children>
+</AnchorPane>
